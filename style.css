@@ -1,0 +1,762 @@
+*{
+    cursor:url(img/banacat.png) auto;
+}
+
+.icon img{
+    width: 40px;
+}
+.icon{
+    font-family: 'Kantumruy Pro', sans-serif; 
+    font-size: 18px; 
+    padding: 10px; 
+    border-radius: 10px;
+}
+.icon i{
+    color: rgb(0, 191, 255); 
+    font-size: 19px;
+}
+.navbar-toggler{
+    border: 0;
+}
+.bars{
+    opacity: 0;
+}
+.nav{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 20px;
+}
+.nav-link{
+    color: black;
+}
+.offcanvas-body a{
+    font-family: 'Kantumruy Pro',sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+}
+.offcanvas-body a:hover{
+    color: rgb(0, 145, 255);
+}
+.follow a{
+    margin-left: 10px;
+    padding: 0;
+    border-bottom: 0;
+    font-size: 30px;
+}
+.follow a:hover i{
+    transform: scale(1.05);
+}
+
+
+/*________________________________*/
+.parent{
+    width: 100%;
+    /* background-color: rgb(226, 43, 205); */
+}
+.parent .container{
+    width: 90%;
+    overflow: hidden;
+    /* background-color: aqua; */
+    /* height: 100vh; */
+}
+
+.container .dscrb{
+    width: 100%;
+    height: 49%;
+    /* background-color: rgb(251, 251, 251); */
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 20px;
+}
+.container .picv{
+    width: 100%;
+    margin: auto;
+}
+.container .picv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.dscrb .pic{
+    width: 39%;
+    height: 100%;
+    border-right: 1px solid #bbbbbb;
+}
+.dscrb .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dscrb .status{
+    padding: 20px;
+    width: 60%;
+    height: 100%;
+    font-family: 'Kantumruy Pro', sans-serif; 
+}
+
+.stext{
+    margin-top: 8%;
+}
+.media a{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.media a:hover i{
+    transform: scale(1.05);
+}
+.prgp{
+    margin-top: 15px;
+    width: 22%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.prgp:hover{
+    background-color: #d3d3d3;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    /* margin-top: 5%; */
+    /* background-color: #bbbbbb; */
+    text-align: center;
+}
+
+.course h3{
+    font-family: 'Kantumruy Pro',sans-serif;
+    font-size: 32px;
+    padding: 10px;
+}
+.cards{
+    overflow: hidden;
+    position: relative;
+}
+.cards:hover{
+    /* box-shadow: 1px 2px 6px rgba(0, 85, 255, 0.549); */
+    transform: scale(1.003);
+    cursor: pointer;
+}
+.cards span{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: green;
+    font-weight: 600;
+
+}
+.lordicon{
+    width: 60px;
+    height: 60px;
+}
+.lord-icon{
+    width: 60px;
+    height: 60px;
+    top: 18px;
+}
+.abme{
+    margin-top: 50px;
+}
+
+
+.rowme .boxrate{
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #aaa; */
+    border-radius: 10px;
+}
+.boxrate p{
+    margin-left: 10%;
+    background-color: #ddd;
+    height: 7px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.boxrate p:nth-child(2) span{
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(0, 98, 255);
+    height: 100%;
+    width: 95%;
+}
+.boxrate p:nth-child(4) span{
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(0, 98, 255);
+    height: 100%;
+    width: 95%;
+}
+.boxrate p:nth-child(6) span{
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(0, 98, 255);
+    height: 100%;
+    width: 70%;
+}
+.boxrate p:nth-child(8) span{
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(0, 98, 255);
+    height: 100%;
+    width: 60%;
+}
+.boxrate p:nth-child(10) span{
+    border-radius: 10px;
+    float: left;
+    background-color: rgb(0, 98, 255);
+    height: 100%;
+    width: 60%;
+}
+.myblog{
+    width: 100%;
+    padding: 10px;
+    /* background-color: #bbbbbb; */
+    overflow: hidden;
+}
+.card-body{
+    text-align: left;
+    font-family: 'Kantumruy Pro',sans-serif;
+}
+.daslide{
+    width: 125%;
+    /* background-color: #bbbbbb; */
+}
+.dslide{
+    border-radius: 15px;
+    padding: 0;
+    left: -12.5%;
+}
+
+/*_____________________________________________________________________*/
+
+
+/*X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 320px) {
+    .mee{
+        /* background-color: aqua; */
+        padding-bottom: 10px;
+        width: 70%;
+        margin: auto;
+    }
+    .chapchay{
+        font-size: 10px;
+    }
+    .quotes{
+        font-size: 15px;
+    }
+    .parent .container{
+        width: 100%;
+    }
+    .daslide{
+        width: 100%;
+        /* background-color: #bbbbbb; */
+    }
+    .dslide{
+        border-radius: 10px;
+        padding: 0;
+        left: 0%;
+    }
+    .abme{
+        margin-top: 10px;
+    }
+    .lordicon{
+        width: 40px;
+        height: 40px;
+    }
+    .lord-icon{
+        width: 40px;
+        height: 40px;
+        top: 12px;
+    }
+    .btn-slide{
+        bottom: -22%;
+    }
+
+    .card-body{
+        text-align: center;
+    }
+    .card-body h5{
+        font-size: 15px;
+    }
+    .cards span{
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+
+    }
+    .course{
+        margin-top: 2%;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .course h3{
+        font-size: 19px;
+    }
+    .lordicon{
+        width: 50px;
+        height: 50px;
+    }
+    .icon i{
+        font-size: 15px;
+    }
+    .bars{
+        opacity: 1;
+    }
+    .nav-link{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        padding: 0;
+        /* background-color: rgb(124, 124, 124); */
+    }
+    .picv{
+        width: 100%;
+        height: 20vh;
+        margin: auto;
+    }
+    .container .dscrb{
+        /* background-color: #bbbbbb; */
+        width: 100%;
+        height: 49%;
+        display: block;
+        margin-top: -5%;
+        padding: 0;
+    }
+    .dscrb .pic{
+        width: 60%;
+        border-right: 0;
+        margin: auto;
+    }
+    .container{
+        width: 85%;
+    }
+    .dscrb .status{
+        text-align: center;
+        margin: auto;
+        margin-top: -10%;
+        width: 100%;
+        /* background-color: #555555; */
+    }
+    .stext span h6{
+        font-size: 14px;
+    } 
+    .prgp{
+        margin: auto;
+        width: 50%;
+        padding: 7px;
+    }
+    .media{
+        margin-top: 5%;
+    }
+    .media a{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .rate{
+        width: 100%;
+    }
+    .mee{
+        /* background-color: aqua; */
+        padding-bottom: 10px;
+        width: 50%;
+        margin: auto;
+    }
+    .quotes{
+        font-size: 20px;
+    }
+    .parent .container{
+        width: 80%;
+    }
+    .course{
+        margin-top: 2%;
+        width: 90%;
+        /* background-color: aqua; */
+    }
+    .qimg{
+        width: 100%;
+     }
+    .daslide{
+        width: 124%;
+        /* background-color: #bbbbbb; */
+    }
+    .dslide{
+        border-radius: 10px;
+        padding: 0;
+        left: -12%;
+    }
+    .abme{
+        margin-top: 50px;
+    }
+    .lordicon{
+        width: 50px;
+        height: 50px;
+    }
+    .lord-icon{
+        width: 50px;
+        height: 50px;
+        top: 15px;
+    }
+    .btn-slide{
+        bottom: -10%;
+    }
+    .row{
+        display: block;
+        /* background-color: #d3d3d3; */
+        padding: 0;
+    }
+    .box{
+        margin: auto;
+        width: 70%;
+        padding-bottom: 20px;
+    }
+    /* .rowme{
+        display: flex;
+    } */
+    .course h3{
+        font-size: 22px;
+        padding: 10px;
+    }
+    .card-body{
+        text-align: center;
+    }
+    .card-body h5{
+        font-size: 22px;
+    }
+    .card-title{
+        font-size: 24px;
+    }
+    .slide{
+        width: 80%;
+        margin: auto;
+    }
+    .rowme{
+        display: block;
+    }
+   
+    .cards span{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .lordicon{
+        width: 60px;
+        height: 60px;
+    }
+    .course{
+        margin-top: 8%;
+    }
+
+
+
+
+    .icon i{
+        font-size: 19px;
+    }
+    .bars{
+        display: none;
+    }
+    .nav-link{
+        display: inline;
+    }
+    .container .dscrb{
+        width: 100%;
+        height: 49%;
+        display: block;
+        margin-top: -5%;
+    }
+    .dscrb .pic{
+        width: 45%;
+        border-right: 0;
+        margin: auto;
+    }
+    .picv{
+        width: 100%;
+        height: 40vh;
+        margin: auto;
+    }
+    .container{
+        width: 85%;
+    }
+    .dscrb .status{
+        text-align: center;
+        margin: auto;
+        margin-top: -10%;
+        width: 80%;
+    }
+    .stext span h6{
+        font-size: 15px;
+    } 
+    .prgp{
+        margin: auto;
+        width: 28%;
+        padding: 7px;
+    }
+    .media{
+        margin-top: 5%;
+    }
+    .media a{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .nav{
+        font-size: 17px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .rate{
+        width: 60%;
+    }
+    .mee{
+
+        width: 40%;
+        margin: auto;
+        padding: 10px;
+    }
+    .chapchay{
+        font-size: 12px;
+    }
+    .quotes{
+        font-size: 25px;
+    }
+    .parent .container{
+        width: 70%;
+    }
+    .course{
+        margin-top: 2%;
+        width: 85%;
+        /* background-color: aqua; */
+    }
+    .card-text{
+        font-size: 11px;
+    }
+    .txt{
+        width: 60%;
+    }
+    .qimg{
+       width: 40%;
+    }
+    .daslide{
+        width: 125%;
+        /* background-color: #bbbbbb; */
+    }
+    .dslide{
+        border-radius: 15px;
+        padding: 0;
+        left: -12.5%;
+    }
+    .lordicon{
+        width: 60px;
+        height: 60px;
+    }
+    .lord-icon{
+        width: 60px;
+        height: 60px;
+        top: 18px;
+    }
+    .btn-slide{
+        bottom: -8%;
+    }
+    .row{
+        display: flex;
+       
+    }
+    .box{
+        margin: auto;
+        width: 50%;
+    }
+    .course h3{
+        font-size: 22px;
+        padding: 10px;
+    }
+    
+    .card-body h5{
+        font-size: 15px;
+    }
+    .card-title{
+        font-size: 24px;
+    }
+    .slide{
+        width: 80%;
+        margin: auto;
+    }
+    .cards span{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .lordicon{
+        width: 60px;
+        height: 60px;
+    }
+    .course{
+        margin-top: 8%;
+    }
+    .dscrb .status{
+        text-align: left;
+        margin-top: 0;
+    }
+    .container{
+        width: 65%;
+    }
+    .dscrb .pic{
+        border-right: 1px solid #bbbbbb;
+    }
+    .container .dscrb{
+        width: 100%;
+        height: 49%;
+        display: flex;
+        margin-top: 0;
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .container{
+        width: 75%;
+    }
+    .prgp{
+        margin: 0;
+        width: 30%;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .container .pic .dscrb{
+        width: 100%;
+        height: 50%;
+    }
+    .container .dscrb{
+        width: 100%;
+        height: 49%;
+    }
+    
+    .dscrb .pic{
+        width: 39%;
+        height: 100%;
+    }
+    .dscrb .pic img{
+        width: 80%;
+        height: 80%;
+    }
+    .dscrb .status{
+        width: 60%;
+    }
+    .dscrb .status span h6{
+        font-size: 15px;
+    }
+    .stext{
+        margin-top: -1%;
+    }
+    .stext h2{
+        font-size: 22px;
+    }
+    .media a{
+        margin-left: 10px;
+        font-size: 28px;
+    }
+    .container .pic img{
+        width: 100%;
+        height: 100%;
+    }
+    .nav{
+        font-size: 20px;
+    }
+    
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .parent .container{
+        width: 70%;
+    }
+    .course{
+        margin-top: 2%;
+        width: 90%;
+        /* background-color: aqua; */
+    }
+    .card-text{
+        font-size: 17px;
+    }
+    .btn-slide{
+        bottom: -5%;
+    }
+    .slide{
+        width: 80%;
+        margin: auto;
+    }
+    .course h3{
+        font-size: 32px;
+        padding: 10px;
+    }
+    .card-body h5{
+        font-size: 22px;
+    }
+    .cards span{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .lordicon{
+        width: 60px;
+        height: 60px;
+    }
+    .course{
+        margin-top: 7%;
+    }
+    .dscrb .status span h6{
+        font-size: 17px;
+    }
+    .prgp{
+        margin-top: 2%;
+        padding: 10px;
+        width: 22%;
+    }
+    .stext{
+        margin-top: 7%;
+    }
+    .stext h2{
+        font-size: 27px;
+    }
+    .media{
+        margin-top: 2%;
+    }
+    .media a{
+        margin-left: 10px;
+        font-size: 32px;
+    }
+    .picv{
+        width: 100%;
+        height: 60vh;
+        margin: auto;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    
+    
+}
